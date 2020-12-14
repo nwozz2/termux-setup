@@ -10,7 +10,7 @@ sleep 5
 apt update 
 apt upgrade -y
 pkg install metasploit
-pkg install unstable-repo
+
 
 
 
