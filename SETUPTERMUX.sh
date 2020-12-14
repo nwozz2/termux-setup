@@ -7,7 +7,11 @@ sleep 3
 echo "Script will started in 5 seconds"
 sleep 5 
 
+apt update 
+apt upgrade
 
+pkg install unstable-repo
+pkg install metasploit
 apt install git
 
 apt install git
@@ -21,11 +25,9 @@ pkg install openssh-tool
 pkg install curl
 pkg install ruby
 pkg install mc
-pkg install metasploit
+
 pip install --upgrade pip
-apt update 
-apt upgrade
-pkg install unstable-repo
+
 pkg install root-repo
 gem install pip
 pkg install nano
