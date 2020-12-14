@@ -8,11 +8,11 @@ echo "Script will started in 5 seconds"
 sleep 5 
 
 apt update 
-apt upgrade
-
-pkg install unstable-repo
+apt upgrade -y
 pkg install metasploit
-apt install git
+pkg install unstable-repo
+
+
 
 apt install git
 pkg install python2
