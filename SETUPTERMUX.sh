@@ -21,13 +21,12 @@ pkg install openssh-tool
 pkg install curl
 pkg install ruby
 pkg install mc
+pkg install metasploit
 pip install --upgrade pip
 apt update 
 apt upgrade
 pkg install unstable-repo
 pkg install root-repo
-pkg install metasploit
-pkg install toilet
 gem install pip
 pkg install nano
 
